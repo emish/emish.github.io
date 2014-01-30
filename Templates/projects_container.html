@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+
+{% block container %}
+
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span3">
+        <div class="well sidebar-nav">
+          <ul class="nav nav-list">
+            <li class="nav-header">Mishal Awadah</li>
+            <!-- Social buttons -->
+            <li>
+              <div class="row-fluid">
+                <a href="http://www.linkedin.com/pub/mishal-awadah/30/707/426"><img src="../img/icons/linkedin_32.png"></a>
+                <a href="http://www.github.com/emish"><img src="../img/icons/github_white_black_cat_32.png"></a>
+                <a href="http://www.hackshitup.com"><img src="../img/icons/wordpress_32.png"></a>
+              </div>
+            </li>
+            <!-- Stack overflow -->
+            <li><a href="http://stackoverflow.com/users/402616/emish">
+              <img src="http://stackoverflow.com/users/flair/402616.png?theme=clean" width="208" height="58" alt="profile for emish at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for emish at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+              </a>
+            </li>
+          </ul>
+          </div><!--/.well -->
+		<div class="well sidebar-nav">
+            <ul class="nav nav-list">  
+              <li class="nav-header">Projects</li>
+              {% for item in project_nav %}
+              {% if item[0] == this.title %}
+              <li class="active"><a href="#">{{ this.title }}</a></li>
+              {% else %}
+              <li><a href="{{ item[1] }}">{{ item[0] }}</a></li>
+              {% endif %}
+              {% endfor %}
+            </ul>
+          </div><!--/.well -->
+        
+          <!-- Twitter feed -->
+          <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+          <script>
+            new TWTR.Widget({
+            version: 2,
+            type: 'profile',
+            rpp: 7,
+            interval: 30000,
+            width: 'auto',
+            height: 300,
+            theme: {
+            shell: {
+            background: '#eeeeee',
+            color: '#999999'
+            },
+            tweets: {
+            background: '#eeeeee',
+            color: '#333333',
+            links: '#0088cc'
+            }
+            },
+            features: {
+            scrollbar: true,
+            loop: false,
+            live: true,
+            behavior: 'all'
+            }
+            }).render().setUser('bish3al').start();
+          </script>
+
+        </div><!--/span-->
+        
+        <!-- TITLE -->
+        <div class="span9">
+          <div class="hero-unit">
+        {% if this.picture %}
+          <div class="row">
+              <div class="span6">
+                  <h1>{{ this.title }}</h1>
+              </div>
+              <div class="span2">
+                  <img src="{{ this.picture }}"/>
+              </div>
+          </div>
+          <p>{{ this.summary }}</p>
+
+        {% else %}
+            <h1>{{ this.title }}</h1>
+            <p>{{ this.summary }}</p>
+        {% endif %}
+
+            {# Labels #}
+            {% if this.labels %}
+              <p>
+              {% for label in this.labels %}
+                <a class="label label-{{ label.style }}" 
+                   href="{{ label.link }}">{{ label.text }}</a>
+              {% endfor %}
+              </p>
+            {% endif %}
+
+            <div class="row">
+              {% for lin in this.links %}
+              {% if lin %}
+              <div class="span2"><a class="btn btn-inverse btn-large" href="{{ lin[1] }}">{{ lin[0] }} &raquo;</a></div>
+              {% endif %}
+              {% endfor %}
+              {% if this.custom_link %}
+              <div class="span2">{{ this.custom_link }}</div>
+              {% endif %}
+            </div>
+          </div>
+          <!-- END TITLE -->
+
+          {% block description %}
+          {% endblock %}
+
+
+      <hr>
+      <footer>
+<p>Mishal Awadah 2012. Built with Python, Bootstrap, and Jinja2.</p>
+</footer>
+
+    </div><!--/.fluid-container-->
+
+{% endblock %}
