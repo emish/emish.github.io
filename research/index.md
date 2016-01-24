@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Biologically Motivated Speech Recognition
-permalink: /senior_thesis/
+title: Research
+permalink: /research/
 ---
+
+## Biologically Motivated Speech Recognition
 
 Speech perception is uniquely human, so applying theories about human
 psycholinguistic systems to computer speech recognition may improve
@@ -21,5 +23,4 @@ results were not obtained.
 [Research Proposal](proposal.pdf)
 
 [Research Paper](research_paper.pdf)
-
 
