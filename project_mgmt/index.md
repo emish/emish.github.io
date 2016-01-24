@@ -9,22 +9,6 @@ teams.
 
 ---
 
-## San Francisco Go Club
-
-Current president of the SF Go Club.
-
-Established in 1935, the SF Go club is the oldest Go club in Northern
-California. Our mission is to share, teach, promote, and enjoy the
-game of Go together.
-
-I manage club events, the website, member lists, employees,
-etc... I'm constantly trying to improve the club offering and increase
-our popularity.
-
-[SF Go Club Website](http://sfgoclub.com)
-
----
-
 ## Stunable
 
 ![Stunable logo](stunable.png)
@@ -46,33 +30,6 @@ The [Stunable web site](http://stunable.com)
 
 ![Design document](design_doc_img.png)
 
-
----
-
-## Emacs Club
-
-Rivals of Vim users unite! Just kidding, we love you guys too. But
-seriously, Emacs is so awesome how could there not be a club? This
-Penn group holds lectures and hack sessions on all topics emacs.
-
-Definitely check out the meeting notes, they are engineer nerd gold.
-
-[Official Emacs Club website](http://www.emacsclub.com/)
-
-[Github page](https://github.com/emacsclub/emacsclub.github.com)
-
----
-
-## B.A.R.D.
-
-Botnet Atom Realtime Detector, an active distributed firewall whose
-primary purpose is to detect and protect against botnet attacks and
-infiltration. This is done by analyzing network flow information for
-patterns common to botnet behaviors and attacks, and uses a particular
-packet trait known as 'persistence'. This was a group-based project,
-and you can find lots more details in the design document.
-
-[Design Document](bard_design_doc.pdf)
 
 ---
 
@@ -100,5 +57,48 @@ all companies, including their board members and CEOs, as well as to
 the top 100 managers and board of directors of BAPCO.
 
 [Project Final Presentation](Final Bapco Internship Project.pdf)
+
+---
+
+## San Francisco Go Club
+
+Current president of the SF Go Club.
+
+Established in 1935, the SF Go club is the oldest Go club in Northern
+California. Our mission is to share, teach, promote, and enjoy the
+game of Go together.
+
+I manage club events, the website, member lists, employees,
+etc... I'm constantly trying to improve the club offering and increase
+our popularity.
+
+[SF Go Club Website](http://sfgoclub.com)
+
+---
+
+## Emacs Club
+
+Rivals of Vim users unite! Just kidding, we love you guys too. But
+seriously, Emacs is so awesome how could there not be a club? This
+Penn group holds lectures and hack sessions on all topics emacs.
+
+Definitely check out the meeting notes, they are engineer nerd gold.
+
+[Official Emacs Club website](http://www.emacsclub.com/)
+
+[Github page](https://github.com/emacsclub/emacsclub.github.com)
+
+---
+
+## B.A.R.D.
+
+Botnet Atom Realtime Detector, an active distributed firewall whose
+primary purpose is to detect and protect against botnet attacks and
+infiltration. This is done by analyzing network flow information for
+patterns common to botnet behaviors and attacks, and uses a particular
+packet trait known as 'persistence'. This was a group-based project,
+and you can find lots more details in the design document.
+
+[Design Document](bard_design_doc.pdf)
 
 ---
