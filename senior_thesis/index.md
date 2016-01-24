@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Biologically Motivated Approaches to Speech Recognition
+title: Biologically Motivated Speech Recognition
 permalink: /senior_thesis/
 ---
 
