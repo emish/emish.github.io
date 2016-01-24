@@ -9,6 +9,22 @@ teams.
 
 ---
 
+## San Francisco Go Club
+
+Current president of the SF Go Club.
+
+Established in 1935, the SF Go club is the oldest Go club in Northern
+California. Our mission is to share, teach, promote, and enjoy the
+game of Go together.
+
+I manage club events, the website, member lists, employees,
+etc... I'm constantly trying to improve the club offering and increase
+our popularity.
+
+[SF Go Club Website](http://sfgoclub.com)
+
+---
+
 ## Stunable
 
 ![Stunable logo](stunable.png)
