@@ -4,13 +4,15 @@ title: Software Projects
 permalink: /software/
 ---
 
+Here are some software projects that I'm particularly proud of.
+
 ---
 
 ## Art of Recursion
 
 <img src="AORArtwork.png" width="100">
 
-An iPad app to discover the art of recursive drawing through
+An iPad/iPhone app to discover the art of recursive drawing through
 touch. Use a different number of fingers while touching to draw
 different recursive shapes, and watch them as they animate with pretty
 colors. Change color themes by double-tapping. The major iOS

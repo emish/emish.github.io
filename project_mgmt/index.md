@@ -18,13 +18,19 @@ way women experience fashion. Gone are the days of a hundred
 thumbnails per page, replaced instead by a simple and social
 recommendation interface.
 
-The [Stunable web site](http://stunable.com)
-
-[@stunable](https://twitter.com/stunable)
+Check out the [Stunable web site](http://stunable.com) for more.
 
 ### Design Documents
 
+These are the design documents I put together for Stunable, then 'Shop
+with Stella'. They outline and design a full web app design for the
+concept, which I prototyped in Django over a couple of months.
+
 [Preliminary design document](Functional_Specification_0.2.2.pdf)
+
+Once the graphical designs were in, they were used to substitute the
+wirefames in the draft versions to produce a complete spec that was
+provided to 3rd party developers for implementation.
 
 [Final design document](Functional_Specification_Proper.pdf)
 
@@ -86,7 +92,7 @@ Definitely check out the meeting notes, they are engineer nerd gold.
 
 [Official Emacs Club website](http://www.emacsclub.com/)
 
-[Github page](https://github.com/emacsclub/emacsclub.github.com)
+[View on Github](https://github.com/emacsclub/emacsclub.github.com)
 
 ---
 
